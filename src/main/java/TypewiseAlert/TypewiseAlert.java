@@ -1,6 +1,6 @@
 package TypewiseAlert;
 
-public class TypewiseAlert 
+public class TypewiseAlert {
 public static BreachTypes inferBreach(double value, double lowerLimit, double upperLimit) {
 		if (value < lowerLimit) {
 			return BreachTypes.TOO_LOW;
